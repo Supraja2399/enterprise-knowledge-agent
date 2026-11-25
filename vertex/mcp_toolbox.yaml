@@ -1,0 +1,69 @@
+# MCP Toolbox configuration — DEPLOYMENT ARTIFACT ONLY.
+# Locally, the same tool names are implemented in
+# src/enterprise_knowledge_agent/tools.py against the synthetic JSON KB.
+# In GCP, bind these tools to BigQuery / Spanner via MCP Toolbox for
+# Databases. No credentials are stored here.
+#
+# Reference pattern (MCP Toolbox for Databases, tools.yaml):
+sources:
+  bigquery-source:
+    kind: bigquery
+    project: ${GCP_PROJECT_ID}
+    location: US
+  spanner-source:
+    kind: cloud-sql-postgres  # placeholder shape; use spanner kind in production
+    project: ${GCP_PROJECT_ID}
+
+tools:
+  search_docs:
+    kind: bigquery-sql
+    source: bigquery-source
+    description: >
+      Search the knowledge base with BigQuery Vector Search.
+      Read-only. Returns the top-k chunks with cosine scores.
+    statement: |
+      SELECT doc_id, chunk_id, text, score
+      FROM ML.DISTANCE(
+        (SELECT * FROM `{{.project}}.knowledge.chunks`),
+        (SELECT * FROM `{{.project}}.knowledge.query_embedding`),
+        'COSINE')
+      ORDER BY score DESC LIMIT {{.top_k}}
+    parameters:
+      - name: query
+        type: string
+        description: User question text
+      - name: top_k
+        type: integer
+        description: Number of chunks to return (1-5)
+  lookup_product:
+    kind: bigquery-sql
+    source: bigquery-source
+    description: Look up one product by name or SKU. Read-only.
+    statement: |
+      SELECT * FROM `{{.project}}.knowledge.docs`
+      WHERE kind = 'product'
+        AND (LOWER(title) LIKE CONCAT('%', LOWER({{.name_or_sku}}), '%')
+          OR LOWER(text) LIKE CONCAT('%', LOWER({{.name_or_sku}}), '%'))
+      LIMIT 1
+    parameters:
+      - name: name_or_sku
+        type: string
+        description: Product name or SKU
+  get_policy:
+    kind: bigquery-sql
+    source: bigquery-source
+    description: Look up one policy by topic. Read-only.
+    statement: |
+      SELECT * FROM `{{.project}}.knowledge.docs`
+      WHERE kind = 'policy'
+        AND (LOWER(title) LIKE CONCAT('%', LOWER({{.topic}}), '%')
+          OR LOWER(text) LIKE CONCAT('%', LOWER({{.topic}}), '%'))
+      LIMIT 1
+    parameters:
+      - name: topic
+        type: string
+        description: Policy topic
+
+# NOTE: there is deliberately NO update/delete/send tool in this file.
+# Write actions are not MCP tools here; they go through the human
+# approval gate (see src/enterprise_knowledge_agent/gate.py).

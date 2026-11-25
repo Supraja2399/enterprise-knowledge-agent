@@ -1,0 +1,752 @@
+[
+  {
+    "id": "P001",
+    "kind": "product",
+    "title": "BrightHarvest Almond Crunch Granola",
+    "text": "BrightHarvest Almond Crunch Granola is a BrightHarvest Granola product. SKU BH-GRN-001. Price $8.99. Shelf life 180 days. Allergens: almonds, oats. Store in a cool dry place.",
+    "tags": [
+      "granola",
+      "brightharvest almond crunch granola"
+    ]
+  },
+  {
+    "id": "P002",
+    "kind": "product",
+    "title": "BrightHarvest Honey Oat Bars",
+    "text": "BrightHarvest Honey Oat Bars is a BrightHarvest Snack Bars product. SKU BH-BAR-002. Price $5.49. Shelf life 120 days. Allergens: oats, honey, wheat. Store in a cool dry place.",
+    "tags": [
+      "snack bars",
+      "brightharvest honey oat bars"
+    ]
+  },
+  {
+    "id": "P003",
+    "kind": "product",
+    "title": "BrightHarvest Berry Burst Cereal",
+    "text": "BrightHarvest Berry Burst Cereal is a BrightHarvest Cereal product. SKU BH-CER-003. Price $6.99. Shelf life 240 days. Allergens: wheat, strawberries, milk. Store in a cool dry place.",
+    "tags": [
+      "cereal",
+      "brightharvest berry burst cereal"
+    ]
+  },
+  {
+    "id": "P004",
+    "kind": "product",
+    "title": "BrightHarvest Cold Brew Coffee Beans",
+    "text": "BrightHarvest Cold Brew Coffee Beans is a BrightHarvest Coffee product. SKU BH-COF-004. Price $12.99. Shelf life 365 days. Allergens: none. Store in an airtight container away from light.",
+    "tags": [
+      "coffee",
+      "brightharvest cold brew coffee beans"
+    ]
+  },
+  {
+    "id": "P005",
+    "kind": "product",
+    "title": "BrightHarvest Green Tea Blend",
+    "text": "BrightHarvest Green Tea Blend is a BrightHarvest Tea product. SKU BH-TEA-005. Price $7.49. Shelf life 365 days. Allergens: none. Store in a cool dry place.",
+    "tags": [
+      "tea",
+      "brightharvest green tea blend"
+    ]
+  },
+  {
+    "id": "P006",
+    "kind": "product",
+    "title": "BrightHarvest Peanut Butter Crunch",
+    "text": "BrightHarvest Peanut Butter Crunch is a BrightHarvest Spreads product. SKU BH-SPR-006. Price $6.49. Shelf life 270 days. Allergens: peanuts. Refrigerate after opening.",
+    "tags": [
+      "spreads",
+      "brightharvest peanut butter crunch"
+    ]
+  },
+  {
+    "id": "P007",
+    "kind": "product",
+    "title": "BrightHarvest Tomato Basil Pasta Sauce",
+    "text": "BrightHarvest Tomato Basil Pasta Sauce is a BrightHarvest Sauces product. SKU BH-SAU-007. Price $4.99. Shelf life 540 days. Allergens: none. Refrigerate after opening and use within 7 days.",
+    "tags": [
+      "sauces",
+      "brightharvest tomato basil pasta sauce"
+    ]
+  },
+  {
+    "id": "P008",
+    "kind": "product",
+    "title": "BrightHarvest Whole Wheat Pasta",
+    "text": "BrightHarvest Whole Wheat Pasta is a BrightHarvest Pasta product. SKU BH-PAS-008. Price $3.29. Shelf life 720 days. Allergens: wheat. Store in a cool dry place.",
+    "tags": [
+      "pasta",
+      "brightharvest whole wheat pasta"
+    ]
+  },
+  {
+    "id": "P009",
+    "kind": "product",
+    "title": "BrightHarvest Dark Chocolate Squares",
+    "text": "BrightHarvest Dark Chocolate Squares is a BrightHarvest Chocolate product. SKU BH-CHO-009. Price $9.99. Shelf life 365 days. Allergens: milk, soy. Store in a cool dry place below 20C.",
+    "tags": [
+      "chocolate",
+      "brightharvest dark chocolate squares"
+    ]
+  },
+  {
+    "id": "P010",
+    "kind": "product",
+    "title": "BrightHarvest Sea Salt Crackers",
+    "text": "BrightHarvest Sea Salt Crackers is a BrightHarvest Crackers product. SKU BH-CRA-010. Price $3.99. Shelf life 240 days. Allergens: wheat, milk. Store in a cool dry place.",
+    "tags": [
+      "crackers",
+      "brightharvest sea salt crackers"
+    ]
+  },
+  {
+    "id": "P011",
+    "kind": "product",
+    "title": "BrightHarvest Mango Smoothie Mix",
+    "text": "BrightHarvest Mango Smoothie Mix is a BrightHarvest Drinks product. SKU BH-DRK-011. Price $7.99. Shelf life 180 days. Allergens: milk. Refrigerate after opening and use within 5 days.",
+    "tags": [
+      "drinks",
+      "brightharvest mango smoothie mix"
+    ]
+  },
+  {
+    "id": "P012",
+    "kind": "product",
+    "title": "BrightHarvest Oat Milk Original",
+    "text": "BrightHarvest Oat Milk Original is a BrightHarvest Drinks product. SKU BH-MLK-012. Price $4.49. Shelf life 90 days. Allergens: oats. Refrigerate after opening and use within 7 days.",
+    "tags": [
+      "drinks",
+      "brightharvest oat milk original"
+    ]
+  },
+  {
+    "id": "P013",
+    "kind": "product",
+    "title": "BrightHarvest Quinoa Salad Kit",
+    "text": "BrightHarvest Quinoa Salad Kit is a BrightHarvest Meal Kits product. SKU BH-KIT-013. Price $8.49. Shelf life 14 days. Allergens: none. Keep refrigerated at 2 to 4 degrees Celsius.",
+    "tags": [
+      "meal kits",
+      "brightharvest quinoa salad kit"
+    ]
+  },
+  {
+    "id": "P014",
+    "kind": "product",
+    "title": "BrightHarvest Lentil Soup Mix",
+    "text": "BrightHarvest Lentil Soup Mix is a BrightHarvest Soups product. SKU BH-SOU-014. Price $4.29. Shelf life 365 days. Allergens: none. Store in a cool dry place.",
+    "tags": [
+      "soups",
+      "brightharvest lentil soup mix"
+    ]
+  },
+  {
+    "id": "P015",
+    "kind": "product",
+    "title": "BrightHarvest Roasted Almonds Sea Salt",
+    "text": "BrightHarvest Roasted Almonds Sea Salt is a BrightHarvest Snacks product. SKU BH-SNK-015. Price $6.99. Shelf life 270 days. Allergens: almonds. Store in a cool dry place.",
+    "tags": [
+      "snacks",
+      "brightharvest roasted almonds sea salt"
+    ]
+  },
+  {
+    "id": "P016",
+    "kind": "product",
+    "title": "BrightHarvest Apple Cinnamon Oatmeal",
+    "text": "BrightHarvest Apple Cinnamon Oatmeal is a BrightHarvest Cereal product. SKU BH-OAT-016. Price $5.99. Shelf life 300 days. Allergens: oats, milk. Store in a cool dry place.",
+    "tags": [
+      "cereal",
+      "brightharvest apple cinnamon oatmeal"
+    ]
+  },
+  {
+    "id": "P017",
+    "kind": "product",
+    "title": "BrightHarvest Coconut Water Natural",
+    "text": "BrightHarvest Coconut Water Natural is a BrightHarvest Drinks product. SKU BH-COC-017. Price $3.49. Shelf life 180 days. Allergens: none. Refrigerate after opening and use within 3 days.",
+    "tags": [
+      "drinks",
+      "brightharvest coconut water natural"
+    ]
+  },
+  {
+    "id": "P018",
+    "kind": "product",
+    "title": "BrightHarvest Veggie Chips Beetroot",
+    "text": "BrightHarvest Veggie Chips Beetroot is a BrightHarvest Snacks product. SKU BH-CHP-018. Price $4.79. Shelf life 180 days. Allergens: none. Store in a cool dry place.",
+    "tags": [
+      "snacks",
+      "brightharvest veggie chips beetroot"
+    ]
+  },
+  {
+    "id": "P019",
+    "kind": "product",
+    "title": "BrightHarvest Honey Mustard Dressing",
+    "text": "BrightHarvest Honey Mustard Dressing is a BrightHarvest Dressings product. SKU BH-DRE-019. Price $4.99. Shelf life 240 days. Allergens: mustard, egg. Refrigerate after opening.",
+    "tags": [
+      "dressings",
+      "brightharvest honey mustard dressing"
+    ]
+  },
+  {
+    "id": "P020",
+    "kind": "product",
+    "title": "BrightHarvest Brown Rice Basmati",
+    "text": "BrightHarvest Brown Rice Basmati is a BrightHarvest Grains product. SKU BH-RIC-020. Price $7.49. Shelf life 720 days. Allergens: none. Store in a cool dry place.",
+    "tags": [
+      "grains",
+      "brightharvest brown rice basmati"
+    ]
+  },
+  {
+    "id": "P021",
+    "kind": "product",
+    "title": "BrightHarvest Chocolate Hazelnut Spread",
+    "text": "BrightHarvest Chocolate Hazelnut Spread is a BrightHarvest Spreads product. SKU BH-SPR-021. Price $7.99. Shelf life 300 days. Allergens: hazelnuts, milk, soy. Store in a cool dry place.",
+    "tags": [
+      "spreads",
+      "brightharvest chocolate hazelnut spread"
+    ]
+  },
+  {
+    "id": "P022",
+    "kind": "product",
+    "title": "BrightHarvest Lemon Herb Seasoning",
+    "text": "BrightHarvest Lemon Herb Seasoning is a BrightHarvest Seasonings product. SKU BH-SEA-022. Price $3.99. Shelf life 540 days. Allergens: none. Store in a cool dry place.",
+    "tags": [
+      "seasonings",
+      "brightharvest lemon herb seasoning"
+    ]
+  },
+  {
+    "id": "P023",
+    "kind": "product",
+    "title": "BrightHarvest Protein Bar Chocolate Peanut",
+    "text": "BrightHarvest Protein Bar Chocolate Peanut is a BrightHarvest Snack Bars product. SKU BH-BAR-023. Price $6.49. Shelf life 180 days. Allergens: peanuts, milk, soy. Store in a cool dry place.",
+    "tags": [
+      "snack bars",
+      "brightharvest protein bar chocolate peanut"
+    ]
+  },
+  {
+    "id": "P024",
+    "kind": "product",
+    "title": "BrightHarvest Strawberry Yogurt Cups",
+    "text": "BrightHarvest Strawberry Yogurt Cups is a BrightHarvest Dairy product. SKU BH-YOG-024. Price $5.49. Shelf life 21 days. Allergens: milk. Keep refrigerated at 2 to 4 degrees Celsius.",
+    "tags": [
+      "dairy",
+      "brightharvest strawberry yogurt cups"
+    ]
+  },
+  {
+    "id": "P025",
+    "kind": "product",
+    "title": "BrightHarvest Orange Juice Cold Pressed",
+    "text": "BrightHarvest Orange Juice Cold Pressed is a BrightHarvest Drinks product. SKU BH-JUC-025. Price $5.99. Shelf life 30 days. Allergens: none. Keep refrigerated and use within 7 days of opening.",
+    "tags": [
+      "drinks",
+      "brightharvest orange juice cold pressed"
+    ]
+  },
+  {
+    "id": "P026",
+    "kind": "product",
+    "title": "BrightHarvest Whole Grain Bread Mix",
+    "text": "BrightHarvest Whole Grain Bread Mix is a BrightHarvest Baking product. SKU BH-BAK-026. Price $4.49. Shelf life 300 days. Allergens: wheat. Store in a cool dry place.",
+    "tags": [
+      "baking",
+      "brightharvest whole grain bread mix"
+    ]
+  },
+  {
+    "id": "P027",
+    "kind": "product",
+    "title": "BrightHarvest Maple Syrup Pure",
+    "text": "BrightHarvest Maple Syrup Pure is a BrightHarvest Syrups product. SKU BH-SYR-027. Price $11.99. Shelf life 720 days. Allergens: none. Refrigerate after opening.",
+    "tags": [
+      "syrups",
+      "brightharvest maple syrup pure"
+    ]
+  },
+  {
+    "id": "P028",
+    "kind": "product",
+    "title": "BrightHarvest Chickpea Pasta Fusilli",
+    "text": "BrightHarvest Chickpea Pasta Fusilli is a BrightHarvest Pasta product. SKU BH-PAS-028. Price $4.79. Shelf life 720 days. Allergens: chickpeas. Store in a cool dry place.",
+    "tags": [
+      "pasta",
+      "brightharvest chickpea pasta fusilli"
+    ]
+  },
+  {
+    "id": "P029",
+    "kind": "product",
+    "title": "BrightHarvest Turmeric Latte Mix",
+    "text": "BrightHarvest Turmeric Latte Mix is a BrightHarvest Drinks product. SKU BH-LAT-029. Price $8.99. Shelf life 365 days. Allergens: milk. Store in a cool dry place.",
+    "tags": [
+      "drinks",
+      "brightharvest turmeric latte mix"
+    ]
+  },
+  {
+    "id": "P030",
+    "kind": "product",
+    "title": "BrightHarvest Mixed Berry Jam",
+    "text": "BrightHarvest Mixed Berry Jam is a BrightHarvest Jams product. SKU BH-JAM-030. Price $5.29. Shelf life 365 days. Allergens: none. Refrigerate after opening and use within 30 days.",
+    "tags": [
+      "jams",
+      "brightharvest mixed berry jam"
+    ]
+  },
+  {
+    "id": "POL-01",
+    "kind": "policy",
+    "title": "Returns policy",
+    "text": "BrightHarvest accepts returns within 30 days of delivery for unopened products. Refunds are processed within 5 to 7 business days to the original payment method. Opened perishable products cannot be returned.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-02",
+    "kind": "policy",
+    "title": "Shipping policy",
+    "text": "Standard shipping takes 3 to 5 business days. Orders over 35 dollars qualify for free standard shipping. Express shipping takes 1 to 2 business days and costs 12 dollars.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-03",
+    "kind": "policy",
+    "title": "Damaged goods policy",
+    "text": "If a product arrives damaged, contact support within 7 days of delivery with photos. A replacement or refund will be issued within 3 business days after approval.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-04",
+    "kind": "policy",
+    "title": "Allergen policy",
+    "text": "All allergen information is printed on every product label. Products are made in facilities that may also handle peanuts, tree nuts, wheat, milk, soy, and egg. Customers with severe allergies should check the label for each batch.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-05",
+    "kind": "policy",
+    "title": "Recall procedure",
+    "text": "If a product is recalled, BrightHarvest notifies customers by email within 24 hours. Recalled products can be returned for a full refund. Do not consume a recalled product.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-06",
+    "kind": "policy",
+    "title": "Privacy policy",
+    "text": "BrightHarvest collects only the contact and order information needed to fulfil orders. Customer data is never sold to third parties. Customers can request deletion of their account data by emailing privacy at brightharvest example.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-07",
+    "kind": "policy",
+    "title": "Warranty policy",
+    "text": "BrightHarvest kitchen appliances carry a 2 year limited warranty covering manufacturing defects. The warranty does not cover damage from misuse or normal wear.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-08",
+    "kind": "policy",
+    "title": "Subscription policy",
+    "text": "Subscriptions can be paused or cancelled at any time before the next billing date. Paused subscriptions resume on the date chosen by the customer. No cancellation fee applies.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-09",
+    "kind": "policy",
+    "title": "Price match policy",
+    "text": "BrightHarvest does not offer price matching with other retailers. Promotional prices apply only during the stated promotion period.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-10",
+    "kind": "policy",
+    "title": "Bulk order policy",
+    "text": "Orders of more than 100 units of a single product qualify for a bulk discount of 10 percent. Contact the sales team at least 10 business days before the required delivery date.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-11",
+    "kind": "policy",
+    "title": "Gift card policy",
+    "text": "Gift cards are valid for 24 months from purchase. Gift cards cannot be exchanged for cash. Lost gift cards cannot be replaced without proof of purchase.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-12",
+    "kind": "policy",
+    "title": "Age restriction policy",
+    "text": "Products containing coffee or caffeinated ingredients are not recommended for children under 12 years. No age verification is required at checkout.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-13",
+    "kind": "policy",
+    "title": "Complaint handling policy",
+    "text": "Complaints are acknowledged within 2 business days and resolved within 10 business days. Customers receive a case number for every complaint.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-14",
+    "kind": "policy",
+    "title": "Product safety policy",
+    "text": "All BrightHarvest products are tested for safety before release. Batch numbers are printed on every package so any batch can be traced.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-15",
+    "kind": "policy",
+    "title": "Delivery area policy",
+    "text": "BrightHarvest delivers to the continental United States. Delivery to Alaska and Hawaii takes 7 to 10 business days and carries a 15 dollar surcharge.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-16",
+    "kind": "policy",
+    "title": "Payment policy",
+    "text": "BrightHarvest accepts major credit cards, debit cards, and gift cards. Cash on delivery is not available. Payment is taken at the time of order.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-17",
+    "kind": "policy",
+    "title": "Coupon policy",
+    "text": "Only one coupon code can be used per order. Coupons cannot be combined with bulk discounts. Expired coupons cannot be reactivated.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-18",
+    "kind": "policy",
+    "title": "Sustainability policy",
+    "text": "BrightHarvest aims to use 100 percent recyclable packaging by 2028. Current packaging is 80 percent recyclable. Customers can return packaging through the recycling programme.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-19",
+    "kind": "policy",
+    "title": "Out of stock policy",
+    "text": "If a product is out of stock, customers can join a waitlist and are notified by email when it is back in stock. Waitlisted orders are not charged until the product ships.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "POL-20",
+    "kind": "policy",
+    "title": "Contact policy",
+    "text": "Customer support is available Monday to Friday, 9am to 6pm Eastern Time, by email and chat. Phone support is available Monday to Friday, 10am to 4pm Eastern Time.",
+    "tags": [
+      "policy"
+    ]
+  },
+  {
+    "id": "SUP-01",
+    "kind": "support",
+    "title": "How to store granola",
+    "text": "Store BrightHarvest Almond Crunch Granola in a cool dry place in a sealed container. Once opened, use within 60 days for best freshness.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-02",
+    "kind": "support",
+    "title": "Oat bars melting",
+    "text": "If Honey Oat Bars melt in heat, place them in the refrigerator for 30 minutes. They are safe to eat after chilling and do not need to be discarded.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-03",
+    "kind": "support",
+    "title": "Cereal going stale",
+    "text": "Keep Berry Burst Cereal in a sealed container after opening. If it goes stale, it is safe to eat but the texture changes. Use within 30 days of opening.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-04",
+    "kind": "support",
+    "title": "Coffee beans grinding",
+    "text": "Grind Cold Brew Coffee Beans coarse for cold brew. Use 80 grams of beans per litre of cold water and steep for 12 to 16 hours.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-05",
+    "kind": "support",
+    "title": "Green tea brewing",
+    "text": "Brew Green Tea Blend with water at 80 degrees Celsius for 2 to 3 minutes. Do not use boiling water, as it makes the tea bitter.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-06",
+    "kind": "support",
+    "title": "Peanut butter separation",
+    "text": "Natural oil separation in Peanut Butter Crunch is normal. Stir well before use. Refrigeration slows separation but makes spreading harder.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-07",
+    "kind": "support",
+    "title": "Pasta sauce after opening",
+    "text": "After opening Tomato Basil Pasta Sauce, refrigerate it and use within 7 days. Do not store an opened jar at room temperature.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-08",
+    "kind": "support",
+    "title": "Pasta cooking time",
+    "text": "Cook Whole Wheat Pasta for 9 to 11 minutes in boiling salted water. Drain and serve immediately for best texture.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-09",
+    "kind": "support",
+    "title": "Chocolate blooming",
+    "text": "White spots on Dark Chocolate Squares are called bloom. Bloom is harmless and the chocolate is safe to eat, though the texture may change.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-10",
+    "kind": "support",
+    "title": "Crackers soft",
+    "text": "If Sea Salt Crackers become soft, warm them in an oven at 150 degrees Celsius for 5 minutes and let them cool. They will crisp again.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-11",
+    "kind": "support",
+    "title": "Smoothie mix lumps",
+    "text": "Shake Mango Smoothie Mix well before use. If lumps remain, blend for 20 seconds. Lumps are caused by settling and are not a defect.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-12",
+    "kind": "support",
+    "title": "Oat milk curdling in coffee",
+    "text": "Oat Milk Original can curdle in very hot acidic coffee. Warm the oat milk first and pour the coffee slowly to reduce curdling.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-13",
+    "kind": "support",
+    "title": "Quinoa salad kit expiry",
+    "text": "Quinoa Salad Kit must be kept refrigerated at 2 to 4 degrees Celsius and used by the date printed on the pack. Do not eat after the use-by date.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-14",
+    "kind": "support",
+    "title": "Lentil soup thickness",
+    "text": "Lentil Soup Mix thickens as it cools. Add 100 millilitres of water per serving when reheating to restore the original consistency.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-15",
+    "kind": "support",
+    "title": "Roasted almonds rancid",
+    "text": "Roasted Almonds Sea Salt can taste rancid if stored in heat. Store in a cool dry place and use within 90 days of opening.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-16",
+    "kind": "support",
+    "title": "Oatmeal clumping",
+    "text": "Apple Cinnamon Oatmeal can clump if water is added too quickly. Add hot water slowly while stirring for a smooth texture.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-17",
+    "kind": "support",
+    "title": "Coconut water sour",
+    "text": "Coconut Water Natural tastes sour if left open for more than 3 days. Discard opened coconut water after 3 days.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-18",
+    "kind": "support",
+    "title": "Veggie chips broken",
+    "text": "Veggie Chips Beetroot are fragile and some breakage in transit is normal. If more than half the bag is broken, contact support within 7 days.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-19",
+    "kind": "support",
+    "title": "Dressing separation",
+    "text": "Honey Mustard Dressing separates naturally. Shake well before each use. Separation does not mean the dressing has gone bad.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-20",
+    "kind": "support",
+    "title": "Rice cooking ratio",
+    "text": "Cook Brown Rice Basmati with a ratio of 1 part rice to 2 parts water. Simmer covered for 40 minutes, then rest for 10 minutes.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-21",
+    "kind": "support",
+    "title": "Hazelnut spread hardening",
+    "text": "Chocolate Hazelnut Spread hardens in the refrigerator. Leave it at room temperature for 20 minutes before spreading.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-22",
+    "kind": "support",
+    "title": "Seasoning clumping",
+    "text": "Lemon Herb Seasoning can clump in humidity. Store with the lid tightly closed in a dry place. Break up clumps with a fork.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-23",
+    "kind": "support",
+    "title": "Protein bar hard",
+    "text": "Protein Bar Chocolate Peanut can become hard in cold weather. Warm it in your hands for a few minutes to soften it before eating.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-24",
+    "kind": "support",
+    "title": "Yogurt cups expiry",
+    "text": "Strawberry Yogurt Cups must be kept refrigerated and used by the date on the lid. Do not eat yogurt that smells sour or has mould.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-25",
+    "kind": "support",
+    "title": "Orange juice pulp",
+    "text": "Orange Juice Cold Pressed contains natural pulp that settles. Shake well before drinking. Pulp settling is normal and not a defect.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-26",
+    "kind": "support",
+    "title": "Bread mix rising",
+    "text": "Whole Grain Bread Mix needs warm water at 35 degrees Celsius to activate the yeast. Cold water slows rising and the loaf may be dense.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-27",
+    "kind": "support",
+    "title": "Maple syrup crystallisation",
+    "text": "Maple Syrup Pure can crystallise in cold storage. Warm the bottle gently in warm water to dissolve the crystals.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-28",
+    "kind": "support",
+    "title": "Chickpea pasta foam",
+    "text": "Chickpea Pasta Fusilli produces foam when boiling. Use a larger pot and stir occasionally to prevent the foam from boiling over.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-29",
+    "kind": "support",
+    "title": "Turmeric latte staining",
+    "text": "Turmeric Latte Mix can stain cups and clothing. Rinse cups immediately after use with cold water before washing.",
+    "tags": [
+      "support"
+    ]
+  },
+  {
+    "id": "SUP-30",
+    "kind": "support",
+    "title": "Jam mould",
+    "text": "If Mixed Berry Jam has mould on the surface, discard the whole jar. Do not scrape off the mould and eat the rest.",
+    "tags": [
+      "support"
+    ]
+  }
+]

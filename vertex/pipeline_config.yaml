@@ -1,0 +1,28 @@
+# Vertex AI Pipelines config — DEPLOYMENT ARTIFACT ONLY.
+# Locally, ingestion + eval are run by:
+#   python eval/run_eval.py
+# In GCP, the same stages would run as a Vertex AI Pipeline.
+# No credentials are stored here.
+pipeline:
+  name: enterprise-knowledge-agent-pipeline
+  description: Ingest docs, build embeddings, run the frozen 48-case eval
+  stages:
+    - name: ingest
+      image: python:3.12
+      command: ["python", "src/ingest.py", "--source", "gs://{{BUCKET}}/docs.json"]
+      outputs: ["knowledge.docs", "knowledge.chunks"]
+    - name: embed
+      image: gcr.io/cloud-aiplatform/training/tf-cpu.2-13:latest
+      model: text-embedding-004
+      inputs: ["knowledge.chunks"]
+      outputs: ["knowledge.chunks.embedding"]
+    - name: eval
+      image: python:3.12
+      command: ["python", "eval/run_eval.py"]
+      inputs: ["knowledge.chunks"]
+      outputs: ["eval/EVAL_RESULTS.md"]
+      gate: "eval must pass 48/48 with 0 false automatic actions before deploy"
+    - name: deploy
+      component: vertex-ai-agent-builder
+      agent: vertex/adk_agents.py
+      requires_human_approval: true
